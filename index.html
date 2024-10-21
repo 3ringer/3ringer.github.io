@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <title>BapeCult</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<div>
+<img id="bcimage" src="" class="bclogo">
+</div>
+
+<script> 
+const image = document.getElementById("bcimage");
+
+const srcArray = [
+    './asset/bclogos/babymilo.png',
+    './asset/bclogos/bc apeheadslogo.png',
+    './asset/bclogos/bc bapesta.png',
+    './asset/bclogos/bc gif.gif',
+    './asset/bclogos/bc squeeze.png',
+    './asset/bclogos/bc star.png',
+    './asset/bclogos/bcvideogame.gif',
+    './asset/bclogos/boldlogo.png',
+    './asset/bclogos/kanye glasses bc.png',
+    './asset/bclogos/nigo bc.com.png',
+    './asset/bclogos/runningdog bc.png',
+    './asset/bclogos/supreme bc.png'
+];
+
+
+getimage();
+function getimage(){
+ranum = Math.floor(Math.random()*srcArray.length)
+console.log(ranum)
+if (ranum !== Number(localStorage.getItem('index'))) {
+image.src = srcArray[ranum];
+localStorage.setItem('index', ranum);
+} else {
+getimage();
+}
+}
+
+
+</script>
+
+
+
+
+<div id="bape">
+
+    <div id="twok">
+        <h2>2000</h1>
+        <ul>
+            <li>SS 2000</li>
+            <li>AW 2000</li>
+        </ul>
+    </div>
+
+    <div id="twokone">
+        <h2>2001</h1>
+        <ul>
+            <li>SS 2001</li>
+            <li>AW 2001</li>
+        </ul>
+    </div>
+
+    <div id="twoktwo">
+        <h2>2002</h1>
+        <ul>
+            <li>SS 2002</li>
+            <li>AW 2002</li>
+        </ul>
+    </div>
+
+    <div id="twokthree">
+        <h2>2003</h1>
+        <ul>
+            <li>SS 2003</li>
+            <li>AW 2003</li>
+        </ul>
+    </div>
+
+    <div id="twokfour">
+        <h2>2004</h1>
+        <ul>
+            <li>SS 2004</li>
+            <li>AW 2004</li>
+        </ul>
+    </div>
+
+    <div id="twokfive">
+        <h2>2005</h1>
+        <ul>
+            <li>SS 2005</li>
+            <li>AW 2005</li>
+        </ul>
+    </div>
+
+    <div id="twoksix">
+        <h2>2006</h1>
+        <ul>
+            <li>SS 2006</li>
+            <li>
+                <a href="./asset/AW2006.pdf" target="_blank">AW 2006</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="twokseven">
+        <h2>2007</h1>
+        <ul>
+            <li>SS 2007</li>
+            <li>AW 2005</li>
+        </ul>
+    </div>
+
+    <div id="twokeight">
+        <h2>2008</h1>
+        <ul>
+            <li>SS 2008</li>
+            <li>AW 2008</li>
+        </ul>
+    </div>
+
+    <div id="twoknine">
+        <h2>2009</h1>
+        <ul>
+            <li>SS 2009</li>
+            <li>AW 2009</li>
+        </ul>
+    </div>
+
+    <div id="twokten">
+        <h2>2010</h1>
+        <ul>
+            <li>SS 2010</li>
+            <li>AW 2010</li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
