@@ -1,15 +1,81 @@
-#bape h2{
+body{
+background-color: rgb(17, 21, 31);
+color: rgb(232, 231, 225);
+
+}
+
+a{
+    color: rgb(232, 231, 225);
+    }
+
+
+
+
+#emook h2{
 margin-bottom: 0;
+font-size: 30px;
 }
 
-#bape ul{
+#emook ul{
+list-style: none;
 margin-top: 0;
+margin-left: -10%;
 }
 
+#emookheader {
+    font-size: 15px;
+    margin-top: 2%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(232, 231, 225);
+    background-color: rgb(17, 21, 31);
+    height: max-content;
+    border-radius: 20px;
+    }
+
+
+#emook {
+margin-top: 1%;
+margin-bottom: 2%;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+width: 350px;
+border-width: 4px;
+border-style: solid;
+border-color: rgb(232, 231, 225);
+background-color: rgb(17, 21, 31);
+height: max-content;
+border-radius: 20px;
+padding-bottom: 30px;
+}
 
 .bclogo{
 top: 0;
 left: 0;
 width: 500px;
 height: 125px;
+display: block;
+margin-right: auto;
+margin-left: auto;
+padding-top: 2%;
+background-color: rgb(17, 21, 31);
+}
+
+#footer{
+border-width: 4px;
+border-style: solid;
+border-color: rgb(232, 231, 225);
+border-radius: 20px;
+margin-right: auto;
+margin-left: auto;
+width: 350px;
+font-size: 20px;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
 }
