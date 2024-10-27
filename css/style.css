@@ -5,8 +5,8 @@ color: rgb(232, 231, 225);
 }
 
 a{
-    color: rgb(232, 231, 225);
-    }
+    color: rgb(180, 204, 220);
+}
 
 
 
@@ -29,7 +29,7 @@ margin-left: -10%;
     margin-right: auto;
     margin-left: auto;
     width: 350px;
-    border-width: 4px;
+    border-width: 2px;
     border-style: solid;
     border-color: rgb(232, 231, 225);
     background-color: rgb(17, 21, 31);
@@ -40,12 +40,12 @@ margin-left: -10%;
 
 #emook {
 margin-top: 1%;
-margin-bottom: 2%;
+margin-bottom: 1%;
 text-align: center;
 margin-right: auto;
 margin-left: auto;
 width: 350px;
-border-width: 4px;
+border-width: 2px;
 border-style: solid;
 border-color: rgb(232, 231, 225);
 background-color: rgb(17, 21, 31);
@@ -67,7 +67,7 @@ background-color: rgb(17, 21, 31);
 }
 
 #footer{
-border-width: 4px;
+border-width: 2px;
 border-style: solid;
 border-color: rgb(232, 231, 225);
 border-radius: 20px;
